@@ -1,0 +1,4 @@
+1. Tokenization with SpaCy
+    https://machinelearningknowledge.ai/complete-guide-to-spacy-tokenizer-with-examples/
+
+    (Possible helper)https://datastud.dev/posts/nlp-preprocess
