@@ -2,3 +2,5 @@ preprocess/prepro.txt
 char.py
 timeline.txt
 tokenization.py
+preprocess/*/__pycache__/
+
