@@ -4,7 +4,8 @@ import re
 import spacy
 from spacy.tokenizer import Tokenizer
 
-from tokenizer.helpers import *
+#from tokenizer.helpers import *
+import tokenizer.helpers as h
 import tokenizer.constants as c
 
 
@@ -20,6 +21,6 @@ class Tokenizer():
     def remove_words(self):
         res = []
         for sent in self.sentences:
-            res.append(stopwords(sent))
+            res.append(h.stopwords(sent))
         return res
 
