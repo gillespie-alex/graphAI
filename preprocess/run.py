@@ -7,6 +7,7 @@ from collections import deque
 # Import custom made packages
 from segmentator import *
 from lemmatizer import *
+from tokenizer import *
 # 2 lines between package imports and code
 
 
@@ -30,6 +31,10 @@ def run():
     lemma_sent = obj2.sentence_segmentation()
     print('\n')
     print(lemma_sent)
+    obj3 = Tokenizer(lemma_sent)
+    final = obj3.remove_words()
+    print('\n')
+    print(final)
 
 
 if __name__ == '__main__':
