@@ -20,4 +20,8 @@ REMOVE_TOKENS = {
         '%': True,
         '$': True,
         '*': True,
+        'and': True,
+        'the': True,
+        'or': True,
+        'at': True,
         }
